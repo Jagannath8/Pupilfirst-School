@@ -48,7 +48,7 @@ let loadImages = (callback) => {
         animationFrames.forEach((frameNumber) => {
             let path = imagePath(frameNumber, animation);
 
-            loadImage(path, (image) => {
+            loadImage("images/idle.png", (image) => {
                 images[animation][frameNumber - 1] = image;
                 imagesToLoad = imagesToLoad - 1;
 
