@@ -24,7 +24,7 @@ let loadImage = (src, callback) => {
 
 
 let imagePath = (frameNumber, animation) => {
-    return "/Pupilfirst-School/images/" + animation + "/" + frameNumber + ".png";
+    return "Jagannath8/Pupilfirst-School/images/" + animation + "/" + frameNumber + ".png";
 };
 
 
